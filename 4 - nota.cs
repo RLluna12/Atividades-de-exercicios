@@ -10,18 +10,23 @@ namespace _4_
     {
         static void Main(string[] args)
         {
-            String name;
-            double p1, p2, p3, media;
-
+           String name;
             Console.WriteLine("digite seu nome: ");
             name = Console.ReadLine();
-            p1 = 2;
-            p2 = 4;
-            p3 = 6;
-            media = (p1 + p2 + p3) / 3;
+            double n1, n2, n3, p1, p2, p3, mp;
+            Console.Write("Digite a nota 1: ");
+            n1 = double.Parse(Console.ReadLine());
+            Console.Write("Digite a nota 2: ");
+            n2 = double.Parse(Console.ReadLine());
+            Console.Write("Digite a nota 3: ");
+            n3 = double.Parse(Console.ReadLine());
 
-            Console.WriteLine(name + " sua nota é : " + media);
+            p1 = 0.2;
+            p2 = 0.4;
+            p3 = 0.6;
+            mp = (n1 * p1) + (n2 * p2) + (n3 * p3) / (p1+p2+p3);
 
+            Console.WriteLine(name + " sua nota é : " + mp);
             
 
 
