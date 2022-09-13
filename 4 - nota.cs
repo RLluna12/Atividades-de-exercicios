@@ -25,10 +25,13 @@ namespace _4_
             p2 = 0.4;
             p3 = 0.6;
             mp = (n1 * p1) + (n2 * p2) + (n3 * p3) / (p1+p2+p3);
-
-            Console.WriteLine(name + " sua nota é : " + mp);
-            
-
+            if (mp<=10)
+            {
+              Console.WriteLine(name + " sua nota é : " + mp);
+            }
+             else 
+             {
+              Console.WriteLine(name + " sua nota é: 10";    
 
 
 
