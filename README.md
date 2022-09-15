@@ -1,1 +1,1 @@
-# Exercicios feitos
+# algoritmos de programação, exercícios 
