@@ -16,10 +16,12 @@ namespace _7__
 
             if (folhas > 200)
             {
+				Console.WriteLine("valor das folhas");
                 Console.WriteLine(folhas * 0.30);
             }
             else
             {
+				Console.WriteLine("valor das folhas");
                 Console.WriteLine(folhas * 0.50);
             }
 
